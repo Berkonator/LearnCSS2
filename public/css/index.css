@@ -1,1 +1,68 @@
-
+.btn:hover {
+    color: red;
+    background-color: yellow;
+}
+.lesson-four-task-two:hover{
+    background-color: green;
+}
+.link:visited{
+    color: yellow;
+}
+#sidebar>.link:link{
+    color: red;
+}
+.lesson-four-task-five>button:active{
+    background-color: blue;
+}
+.lesson-four-task-six>button:focus{
+    color: orange;
+}
+#target>a:target{
+    color: white;
+    background-color: green;
+}
+#checkbox:checked{
+    background-color: blue;
+    color: white;
+}
+p:lang(uk){
+    color: blue;
+}
+.form-control:enabled{
+    color: red;
+    background-color: yellow;
+}
+input:disabled{
+    background-color: yellow;
+}
+input:read-write{
+    background-color: yellow;
+}
+input:read-only{
+    background-color: green;
+}
+input:valid{
+    background-color: green;
+}
+input:invalid{
+    background-color: red;
+}
+textarea:optional{
+    background-color: blueviolet;
+}
+input:out-of-range{
+    background-color: red;
+}
+input:in-range{
+    background-color: rgb(0, 255, 85);
+}
+input:placeholder-shown{
+    background-color: red;
+}
+button:focus-within{
+    background-color: yellow;
+    color: white;
+}
+input:invalid{
+    background-color: red;
+}
