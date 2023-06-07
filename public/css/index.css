@@ -50,11 +50,11 @@ input:invalid{
 textarea:optional{
     background-color: blueviolet;
 }
-input:out-of-range{
-    background-color: red;
+.lesson-four-task-sixteen input:out-of-range{
+    background-color: red !important;
 }
-input:in-range{
-    background-color: rgb(0, 255, 85);
+.lesson-four-task-seventeen input:in-range{
+    background-color: rgb(0, 255, 85) !important;
 }
 input:placeholder-shown{
     background-color: red;
